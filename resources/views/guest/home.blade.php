@@ -1,9 +1,20 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home GUEST</title>
 
-@section('content')
-<div class="container">
-
-    <h1>Questa è la Home Page GUEST</h1>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+</head>
+<body>
     
-</div>
-@endsection
+    <div id="root">
+    
+    </div>
+
+
+    <script type="text/javascript" src="{{asset('js/front.js')}}"></script>
+</body>
+</html>
